@@ -31,19 +31,4 @@ return document.getElementById('grand-node').querySelector('#grand-node div div 
 
 
 
-function find(newDivs, criteriaFn){
-
-
-for (let i = 0; i < newDivs.length; i++) {
-
-  if (criteriaFn(newDivs[i])) {
-    return newDivs;
-
-}
-
-
-}
-
-}
-return newDivs;
 }
