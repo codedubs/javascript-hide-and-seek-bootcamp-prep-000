@@ -29,7 +29,11 @@ function deepestChild() {
 var newDivs = [];
 newDivs.push(document.getElementById('grand-node').querySelectorAll('div'))
 
+
+  var criteriaFn = 'boo'
 function find(newDivs, criteriaFn){
+
+
 for (let i = 0; i < newDivs.length; i++) {
 
   if (criteriaFn(newDivs[i])) {
