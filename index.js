@@ -27,7 +27,7 @@ function deepestChild() {
 
 
 var newDivs = [];
-newDivs.push(document.getElementById('grand-node').querySelectorAll('div'))
+newDivs.push(document.getElementById('grand-node').querySelector('#grand-node div div div div'))
 
 
 
@@ -41,7 +41,7 @@ for (let i = 0; i < newDivs.length; i++) {
 
 }
 
-find(newDivs, 'boo');
+
 }
 
 }
